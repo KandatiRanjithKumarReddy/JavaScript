@@ -31,8 +31,7 @@ console.log(radius.map(area));
 console.log(radius.map(circumference));
 console.log(radius.map(diameter));
 
-//bad way of writing the code 
-
+//bad way of writing the code - not re-usable, not seperated as small small parts (components)
 const calculateArea = function(radius){
     const output=[];
     for(let i=0;i<radius.length;i++){

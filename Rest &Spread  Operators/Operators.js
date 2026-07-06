@@ -13,7 +13,8 @@ function x(name, ...marks) {
 x("Ranjith", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 //Spread operator: 
-// Expands an array or object into individual values (one → many), mainly used while calling functions or copying/merging data.
+// Expands an array or object into individual values (one → many), 
+// mainly used while calling functions or copying/merging data.
 //used in Arguments
 let a = [1, 2, 3];
 let b = [4, 5, 6];
